@@ -1,0 +1,47 @@
+.input-group.input-group-unstyled input.form-control {
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.input-group-unstyled .input-group-addon {
+    border-radius: 4px;
+    border: 0px;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+.custom_dropdown{
+  max-height: 10rem !important;
+  overflow-y: auto;
+  width: 12.25rem !important;
+}
+
+.sticky{
+  background-color: #E8F4EF;
+  position: fixed; 
+  top: 100px;
+  z-index: 10;  
+  width: 14%; 
+} 
+.mat-form-field-infix{
+  border-bottom: 2px solid lightgrey !important;
+  }
+  
+  .mat-focused .mat-form-field-underline .mat-form-field-ripple{
+  background: none;
+  }
+  .mat-form-field-label{
+    color:lightgray !important;
+  } 
+  .mat-focused .mat-form-field-label{
+    color:black !important;
+  }
+    .mat-input-element,
+    ::placeholder {
+      color:lightslategray !important;
+    }
+    .disableSearch{
+      pointer-events: none !important;
+      color: lightgray !important;
+    }
